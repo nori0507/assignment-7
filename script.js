@@ -57,7 +57,7 @@ for (let i = 0; i < friendFavorites.length; i++){
 foodsWithA = [];
 for (let i = 0; i < friendFavorites.length; i++){
   if (friendFavorites[i].includes("a")){
-    foodsWithA.push(friendFavorites[i])
+    foodsWithA.push(friendFavorites[i]);
   }
 }
 console.log('the following is the list of the food that has "a" in the name')
@@ -112,14 +112,15 @@ for (let i = 1; i < friendFavorites.length; i++){
 }
 
 console.log("The longest food name in the list is " + longest + " with " + longest.length + " characters.");
-console.log("I am checking whether it is true or not by printing out all the food and their name lenght.")
-//when i execute the code above, it said clam chawder, but i wanted to make sure that it was the longest one.
-// so I executed the following code segment
+console.log("I am checking whether it is true or not by printing out all the food and their name lenght.");
+
+// printing out all the food and their name lenght.
 for (let i = 1; i < friendFavorites.length; i++){
   console.log(friendFavorites[i] + " : " + friendFavorites[i].length);
 }
+
 //then i fond out that 'spring rolls' also had the 12 characters
 //so I decided to print out the following statement
-console.log("I am printing out a new result")
+console.log("I am printing out a new result");
 console.log('Both "Clam Chowder" and "Spring Rolls" are the food with the longest name with 12 characters');
 
